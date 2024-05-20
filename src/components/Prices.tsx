@@ -1,7 +1,7 @@
 export default function Prices() {
   return (
     <main className="m-6">
-      <h1 className="text-4xl font-semibold text-neutral-950">
+      <h1 className="text-3xl font-semibold text-neutral-950">
         #VemSer<span className="text-green-500">Migo</span>
       </h1>
       <div className="flex flex-wrap items-center justify-around gap-3 my-8">
