@@ -78,4 +78,5 @@
 .bg-migo {
   background-image: url('../../public/migoPattern.png');
   background-position: center;
+  background-attachment: fixed;
 }
