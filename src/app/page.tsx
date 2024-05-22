@@ -1,3 +1,4 @@
+import Contact from "@/components/Contact";
 import Coverage from "@/components/Coverage";
 import Header from "@/components/Header";
 import MainTitle from "@/components/MainTitle";
@@ -10,6 +11,7 @@ export default function Home() {
       <MainTitle />
       <Prices />
       <Coverage />
+      <Contact />
     </div>
   );
 }
