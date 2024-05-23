@@ -3,6 +3,7 @@ import Coverage from "@/components/Coverage";
 import Header from "@/components/Header";
 import MainTitle from "@/components/MainTitle";
 import Prices from "@/components/Prices";
+import WhatsApp from "@/components/WhatsApp";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Prices />
       <Coverage />
       <Contact />
+      <WhatsApp />
     </div>
   );
 }

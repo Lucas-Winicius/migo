@@ -16,14 +16,14 @@ export default function TooltipContainer({
 }) {
   return (
     <p className="flex gap-2">
-      <p className="text-nowrap">{prevText}</p>
+      <span className="text-nowrap">{prevText}</span>
       <TooltipProvider>
         <Tooltip>
           <TooltipTrigger asChild>
-            <p>{trigger}</p>
+            <span>{trigger}</span>
           </TooltipTrigger>
           <TooltipContent>
-            <p>{content}</p>
+            <span>{content}</span>
           </TooltipContent>
         </Tooltip>
       </TooltipProvider>
