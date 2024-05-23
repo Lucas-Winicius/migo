@@ -48,3 +48,12 @@ export const numbers = [
     cities: ["Caiuá", "Presidente Venceslau"],
   },
 ];
+
+export const adresses = [
+  "R. Dom Pedro I, 195 Bastos/SP",
+  "R. Luís Wolf, 120 Rinópolis/SP",
+  "R. Iporans, 937 - Centro Tupã/SP",
+  "R. João Francisco Vasques, 426 Clementina/SP",
+  "Av. Brasil, 1635 - Vila Paraiso Osvaldo Cruz/SP",
+  "R. Regente Feijó, 117, Centro Pres. Venceslau/SP",
+];

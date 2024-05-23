@@ -1,3 +1,4 @@
+import Adresses from "@/components/Adresses";
 import Contact from "@/components/Contact";
 import Coverage from "@/components/Coverage";
 import Header from "@/components/Header";
@@ -13,6 +14,7 @@ export default function Home() {
       <Prices />
       <Coverage />
       <Contact />
+      <Adresses />
       <WhatsApp />
     </div>
   );
