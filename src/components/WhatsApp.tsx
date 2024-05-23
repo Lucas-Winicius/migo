@@ -24,7 +24,7 @@ export default function WhatsApp() {
               .map((data) => (
                 <a
                   key={data.city}
-                  href={`https://api.whatsapp.com/send?phone=${data.number}&text=Ol%C3%A1%2C%20necessito%20de%20ajuda.`}
+                  href={`https://api.whatsapp.com/send?phone=${data.number}&text=Ol%C3%A1%2C%20Sou%20de%20${data.city.toLocaleLowerCase()}%20e%20estou%20necessitando%20de%20ajuda.`}
                   target="_blank"
                   className="font-semibold text-zinc-800"
                 >

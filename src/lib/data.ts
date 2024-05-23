@@ -20,3 +20,31 @@ export const whatsAppNumbers = [
   { number: "5518997515083", city: "Rinópolis" },
   { number: "5518997515083", city: "Salmourão" },
 ];
+
+export const numbers = [
+  {
+    number: "0800 100 1410",
+    alt: "( Região de Clementina )",
+    cities: [
+      "Alto alegre",
+      "Bilac",
+      "Brauna",
+      "Clementina",
+      "Gabriel Monteiro",
+      "Luiziânia",
+      "Piacatu",
+      "Queiroz",
+      "Santopolis",
+    ],
+  },
+  {
+    number: "0800 100 1411",
+    alt: "( Região de Bastos )",
+    cities: ["Arco-Íris", "Bastos", "Herculândia", "Iacri", "Tupã"],
+  },
+  {
+    number: "0800 100 1412",
+    alt: "( Região de Presidente Venceslau )",
+    cities: ["Caiuá", "Presidente Venceslau"],
+  },
+];
