@@ -1,6 +1,7 @@
 import Adresses from "@/components/Adresses";
 import Contact from "@/components/Contact";
 import Coverage from "@/components/Coverage";
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import MainTitle from "@/components/MainTitle";
 import Prices from "@/components/Prices";
@@ -11,11 +12,12 @@ export default function Home() {
     <div>
       <Header />
       <MainTitle />
+      <WhatsApp />
       <Prices />
       <Coverage />
       <Contact />
       <Adresses />
-      <WhatsApp />
+      <Footer />
     </div>
   );
 }

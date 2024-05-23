@@ -29,6 +29,12 @@ export default function Header() {
               <SheetDescription>
                 <div className="flex flex-col items-center gap-3 text-xl font-semibold text-black">
                   <Links />
+                  <a target="_blank" href="Contrato.pdf">
+                    Contrato de restação de serviços
+                  </a>
+                  <a target="_blank" href="ContratoComodato.pdf">
+                    Contrato de comodato
+                  </a>
                 </div>
               </SheetDescription>
             </SheetHeader>
