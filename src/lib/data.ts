@@ -57,3 +57,8 @@ export const adresses = [
   "Av. Brasil, 1635 - Vila Paraiso Osvaldo Cruz/SP",
   "R. Regente Feijó, 117, Centro Pres. Venceslau/SP",
 ];
+
+export const links = {
+  speedTest: "https://www.speedtest.net/",
+  tiket: "http://mks.migopv.com.br:8080/sac/login/?sys=SAC",
+};

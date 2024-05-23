@@ -1,7 +1,7 @@
 export default function Prices() {
   return (
     <main className="m-6">
-      <h1 className="text-3xl font-semibold text-neutral-950">
+      <h1 id="plans" className="text-3xl font-semibold text-neutral-950">
         #VemSer<span className="text-green-500">Migo</span>
       </h1>
       <div className="flex flex-wrap items-center justify-around gap-3 my-8">
@@ -59,7 +59,9 @@ export default function Prices() {
             <p className="font-semibold text-lg">Ultra</p>
           </div>
           <div className="flex flex-col items-center mx-7">
-            <h1 className="text-4xl font-extrabold text-neutral-500">R$ 159,90</h1>
+            <h1 className="text-4xl font-extrabold text-neutral-500">
+              R$ 159,90
+            </h1>
             <p className="font-semibold">Plano Mensal</p>
           </div>
           <a
