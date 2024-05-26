@@ -1,3 +1,5 @@
+import HireButton from "./HireButton";
+
 export default function Prices() {
   return (
     <main className="m-6">
@@ -14,12 +16,10 @@ export default function Prices() {
             <h1 className="text-4xl font-extrabold text-green-500">R$ 79,90</h1>
             <p className="font-semibold">Plano Mensal</p>
           </div>
-          <a
-            href="https://api.whatsapp.com/send?phone=5518997337527&text=Ol%C3%A1%2C%20gostaria%20de%20assinar%20o%20plano%20de%20200%20MB."
+          <HireButton
+            plan="200 MB"
             className="bg-green-500 text-center text-white text-xl font-semibold px-5 py-2"
-          >
-            Quero assinar
-          </a>
+          />
         </div>
         <div className="flex flex-col gap-12 bg-white border-4 min-w-fit border-teal-400 rounded-lg">
           <div className="flex flex-col items-center mt-6">
@@ -30,12 +30,10 @@ export default function Prices() {
             <h1 className="text-4xl font-extrabold text-teal-400">R$ 89,90</h1>
             <p className="font-semibold">Plano Mensal</p>
           </div>
-          <a
-            href="https://api.whatsapp.com/send?phone=5518997337527&text=Ol%C3%A1%2C%20gostaria%20de%20assinar%20o%20plano%20de%20300%20MB."
+          <HireButton
+            plan="300 MB"
             className="bg-teal-400 text-center text-white text-xl font-semibold px-5 py-2"
-          >
-            Quero assinar
-          </a>
+          />
         </div>
         <div className="flex flex-col gap-12 bg-white border-4 min-w-fit border-blue-300 rounded-lg">
           <div className="flex flex-col items-center mt-6">
@@ -46,12 +44,10 @@ export default function Prices() {
             <h1 className="text-4xl font-extrabold text-blue-300">R$ 109,90</h1>
             <p className="font-semibold">Plano Mensal</p>
           </div>
-          <a
-            href="https://api.whatsapp.com/send?phone=5518997337527&text=Ol%C3%A1%2C%20gostaria%20de%20assinar%20o%20plano%20de%20400%20MB."
+          <HireButton
+            plan="400 MB"
             className="bg-blue-300 text-center text-white text-xl font-semibold px-5 py-2"
-          >
-            Quero assinar
-          </a>
+          />
         </div>
         <div className="flex flex-col gap-12 bg-white border-4 min-w-fit border-neutral-500 rounded-lg">
           <div className="flex flex-col items-center mt-6">
@@ -64,12 +60,10 @@ export default function Prices() {
             </h1>
             <p className="font-semibold">Plano Mensal</p>
           </div>
-          <a
-            href="https://api.whatsapp.com/send?phone=5518997337527&text=Ol%C3%A1%2C%20gostaria%20de%20assinar%20o%20plano%20de%20600%20MB."
+          <HireButton
+            plan="600 MB"
             className="bg-neutral-500 text-center text-white text-xl font-semibold px-5 py-2"
-          >
-            Quero assinar
-          </a>
+          />
         </div>
       </div>
     </main>
