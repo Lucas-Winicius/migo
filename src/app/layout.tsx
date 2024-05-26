@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { Suspense } from "react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,6 +21,7 @@ export default function RootLayout({
     <html lang="pt-BR">
       <body className={"green-100 " + inter.className}>
         <Header />
+        <Suspense fallback={<p>Carregando perfil...</p>}></Suspense>
         {children}
         <Footer />
       </body>

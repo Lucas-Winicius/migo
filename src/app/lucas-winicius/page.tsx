@@ -1,6 +1,6 @@
 import { Link } from "lucide-react";
 
-export default async function Green() {
+export default async function Me() {
   const request = await fetch(
     "https://gravatar.com/73b28fc5e9db0c6186ad66bdfacc9460afcbb21294bdf89e718d2183e3daf821.json",
     { next: { revalidate: 3600 } }
