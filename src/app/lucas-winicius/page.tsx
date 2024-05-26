@@ -6,7 +6,7 @@ export default async function Green() {
     { next: { revalidate: 3600 } }
   );
 
-  const json = await request.json();
+  const json: UserProfile = await request.json();
   const data = json.entry[0];
 
   return (
