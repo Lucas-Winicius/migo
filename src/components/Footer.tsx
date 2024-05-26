@@ -10,7 +10,7 @@ export default function Footer() {
           <Image src={logo} height={60} alt="Migo logo" />
         </div>
         <div className="flex justify-center items-center gap-4 font-semibold">
-          <a href="/Lucas-Winicius">Criador</a>
+          <a href="/lucas-winicius">Criador</a>
           <a href="/green">Migo Green</a>
           <a href={links.speedTest}>Teste de velocidade</a>
           <a href={links.tiket}>2ª Via de boleto</a>
