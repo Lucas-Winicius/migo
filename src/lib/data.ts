@@ -62,3 +62,26 @@ export const links = {
   speedTest: "https://www.speedtest.net/",
   tiket: "http://mks.migopv.com.br:8080/sac/login/?sys=SAC",
 };
+
+export const faqs = [
+  {
+    title: "Como testo a velocidade de minha internet?",
+    content:
+      "Basta acessar o speedTest: <a href='http://migonet.speedtest.net/'>Speedtest.net</a>",
+  },
+  {
+    title: "Como acesso a area do cliente?",
+    content:
+      "Basta acessar a <a href='http://mks.migonet.com.br:60280/sac/login/?sys=SAC'>area do cliente</a>",
+  },
+  {
+    title: "Como soliciito alteração do meu plano?",
+    content:
+      "Basta solicitar no <a href='http://mkstupa.migonet.com.br:8080/sac/login/?sys=SAC'>painel do cliente</a>",
+  },
+  {
+    title: "Como soliciito a minha segunda via?",
+    content:
+      "Basta solicitar no <a href='http://mkstupa.migonet.com.br:8080/sac/login/?sys=SAC'>painel do cliente</a>",
+  },
+];
