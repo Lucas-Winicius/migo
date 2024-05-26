@@ -11,7 +11,7 @@ export default function Footer() {
         </div>
         <div className="flex justify-center items-center gap-4 font-semibold">
           <a href="/Lucas-Winicius">Criador</a>
-          <a href="/Green">Migo Green</a>
+          <a href="/green">Migo Green</a>
           <a href={links.speedTest}>Teste de velocidade</a>
           <a href={links.tiket}>2ª Via de boleto</a>
         </div>
