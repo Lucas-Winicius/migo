@@ -29,10 +29,16 @@ I made other data like phone numbers and addresses available to everyone so user
 
 Something very important that doesn't exist in the original version of the website is responsiveness, as the mobile version is merely a scaled-down version of the desktop one.
 
-**Original version:**
-![alt text](public/mobileOriginal.png)
-**My Version**
-![alt text](public/mobileMy.png)
+<div style="display: flex;">
+  <div>
+    <h3>Original version:</h3>
+    <img src="public/mobileOriginal.png">
+  </div>
+  <div>
+    <h3>My Version:</h3>
+    <img src="public/mobileMy.png">
+  </div>
+</div>
 
 In general, I have to say that I'm pleased with the project and that I've learned new things. I also hope that you have enjoyed it and feel free to check out the code and make any alterations.
 
